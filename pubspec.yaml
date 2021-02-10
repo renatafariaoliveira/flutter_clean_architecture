@@ -1,0 +1,41 @@
+name: flutter_clean_architecture
+description: I used this project to study a Clean Architecture and Flutter. Basically, this application calls Github API and get profiles according the user writes in a simple input text.
+publish_to: 'none'
+repository: https://github.com/renatafariaoliveira/flutter_clean_architecture
+authors:
+  - Renata Oliveira <https://www.linkedin.com/in/renatafariaoliveira/>
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  dartz:
+  dio:
+  flutter_modular:
+  bloc:
+  rxdart:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito:
+  test_coverage:
+  remove_from_coverage:
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/Logo.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
